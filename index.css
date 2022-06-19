@@ -1,0 +1,76 @@
+/* use Inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* reset CSS */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.section {
+  width: 50%;
+  border: 1px solid grey;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-height: 100vh;
+  overflow: 'scroll';
+  margin: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.trigger-button {
+  display: block;
+  padding: 1rem 4rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 1rem;
+  color: black;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 300ms ease;
+}
+
+.trigger-button:hover {
+  background-color: #ccc;
+}
+
+.log-item {
+  margin: 1rem;
+}
+
+.summary {
+  width: 100%;
+}
+
+.summary thead th {
+  width: 20%;
+  text-align: left;
+}
