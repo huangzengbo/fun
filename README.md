@@ -1,7 +1,7 @@
 steps to run:
 
-yarn
+1. yarn
 
-yarn start
+2. yarn start
 
-yarn test (for unit test)
+3. yarn test (for unit test)
